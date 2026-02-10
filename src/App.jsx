@@ -1,5 +1,6 @@
 import UserProfile from './components/UserProfile';
 import TechList from './components/TechList';
+import InteractiveButton from './components/InteractiveButton';
 
 function App() {
   return (
@@ -11,6 +12,11 @@ function App() {
       
       <h2>Desafío 2: Renderizado de Listas</h2>
       <TechList />
+      
+      <hr style={{ margin: '30px 0' }} />
+      
+      <h2>Desafío 3: Estado e Interacción</h2>
+      <InteractiveButton />
     </div>
   );
 }
